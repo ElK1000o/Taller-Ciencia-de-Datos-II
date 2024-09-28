@@ -1,10 +1,10 @@
-# Desigualdad Salarial de Género en Chile 2022: Análisis en Iguales Condiciones Laborales
+# Desigualdad Salarial de Género en Chile 2022: Análisis en Condiciones Laborales Similares
 
 ## Descripción del Proyecto
 
-Este proyecto de investigación tiene como objetivo analizar la desigualdad salarial de género en Chile para el año 2022, enfocándose en comparaciones bajo las mismas características laborales. Se utilizaron datos de la Encuesta de Caracterización Socioeconómica Nacional (CASEN) y la Encuesta Nacional de Empleo (ENE) buscando verificar esta brecha en mismas circunstancias de trabajo y además evaluar los posibles factores que promuevan una brecha salarial en diferentes áreas y posiciones laborales.
+Este proyecto de investigación tiene como objetivo analizar la desigualdad salarial de género en Chile para el año 2022, enfocándose en comparaciones bajo características laborales similares. Se utilizaron datos de la Encuesta de Caracterización Socioeconómica Nacional (CASEN) y la Encuesta Nacional de Empleo (ENE) buscando verificar esta brecha en mismas circunstancias de trabajo y además evaluar los posibles factores que promuevan una brecha salarial en diferentes áreas y posiciones laborales.
 
-La hipótesis central de esta investigación es que, en promedio, las mujeres en Chile reciben salarios inferiores a los de los hombres cuando se encuentran en igualdad de condiciones laborales.
+La hipótesis central de esta investigación es que, en promedio, las mujeres en Chile reciben salarios inferiores a los de los hombres cuando se encuentran en similitud de condiciones laborales.
 
 Esta investigación se encuentra basada en un análisis previo donde se identificó una brecha salarial de género. Ahora, el objetivo es profundizar en esta brecha para comprender mejor sus causas y características. El proyecto anterior está disponible en el siguiente [repositorio de GitHub](https://github.com/ElK1000o/Taller-Ciencia-de-Datos-I/tree/main/Proyecto "Análisis de los Ingresos Principales en Chile: Una Perspectiva Demográfica, Regional y Comparativa con el Sueldo Mínimo").
 
@@ -25,13 +25,15 @@ Esta investigación se encuentra basada en un análisis previo donde se identifi
 
      - Datos obtenidos desde el sitio web del [Observatorio Social - Ministerio de Desarrollo Social y Familia](https://observatorio.ministeriodesarrollosocial.gob.cl/encuesta-casen-2022 'Observatorio Social | Desarrollo Social y Familia').
 
+      - Seguir el siguiente procedimiento: Bases de datos > Base de datos Casen 2022 SPSS (versión 18 de marzo 2024)
+
      - [Enlace de descarga directa](https://observatorio.ministeriodesarrollosocial.gob.cl/storage/docs/casen/2022/Base%20de%20datos%20Casen%202022%20SPSS_18%20marzo%202024.sav.zip "ZIP CASEN 2022"), que contiene el libro de código y datos.
 
    - **Encuesta Nacional de Empleo (ENE) 2022**:
 
      - Información disponible en el [Instituto Nacional de Estadística](https://www.ine.gob.cl/estadisticas/sociales/mercado-laboral/ocupacion-y-desocupacion "INE").
 
-     - Para los datos: Bases de datos > Bases anualizadas > Formato CSV > Año 2022.
+     - Procedimiento para los datos: Bases de datos > Bases anualizadas > Formato CSV > Año 2022.
 
      - [Enlace directo de los datos](https://www.ine.gob.cl/docs/default-source/ocupacion-y-desocupacion/bbdd/bases-anuales/csv/ano-2022.csv?sfvrsn=c55b558c_16&download=true "Datos ENE 2022").
 
