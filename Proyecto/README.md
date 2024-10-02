@@ -4,17 +4,23 @@
 
 Este proyecto de investigación tiene como objetivo analizar la desigualdad salarial de género en Chile para el año 2022, enfocándose en comparaciones bajo características laborales similares. Se utilizaron datos de la Encuesta de Caracterización Socioeconómica Nacional (CASEN) y la Encuesta Nacional de Empleo (ENE) buscando verificar esta brecha en mismas circunstancias de trabajo y además evaluar los posibles factores que promuevan una brecha salarial en diferentes áreas y posiciones laborales.
 
-La hipótesis central de esta investigación es que, en promedio, las mujeres en Chile reciben salarios inferiores a los de los hombres cuando se encuentran en similitud de condiciones laborales.
+La hipótesis central de esta investigación es que, en promedio, las mujeres en Chile reciben salarios inferiores a los hombres incluso cuando se encuentran en similitud de condiciones laborales.
 
 Esta investigación se encuentra basada en un análisis previo donde se identificó una brecha salarial de género. Ahora, el objetivo es profundizar en esta brecha para comprender mejor sus causas y características. El proyecto anterior está disponible en el siguiente [repositorio de GitHub](https://github.com/ElK1000o/Taller-Ciencia-de-Datos-I/tree/main/Proyecto "Análisis de los Ingresos Principales en Chile: Una Perspectiva Demográfica, Regional y Comparativa con el Sueldo Mínimo").
 
 ## Objetivos
 
-1. **Comparación de distribuciones laborales**: Comparar si, en general, hombres y mujeres tienen distribuciones similares en términos de condiciones laborales (área y puesto).
+General: 
 
-2. **Análisis de factores adicionales**: Examinar otros factores que podrían influir en la brecha salarial, tales como la industria, el tipo de ocupación, el nivel educativo, y el rol dentro del hogar.
+- Se propone evaluar la relación entre las diferencias salariales de género y las condiciones laborales en Chile, determinando si existen factores laborales que expliquen la brecha salarial, independientemente de si estas condiciones son similares o diferentes entre géneros.
 
-3. **Análisis de encuestas CASEN y ENE**: Utilizar las encuestas CASEN y ENE del año 2022 para obtener datos demográficos y económicos, y realizar análisis comparativos entre ambos géneros.
+Específicos:
+
+1. Identificar las variables laborales que causen mayor impacto en los salarios en hombres y mujeres bajo condiciones similares.
+
+2. Comparar los ingresos de hombres y mujeres en diferentes condiciones sociodemográficas, ocupaciones,  contratos laborales, tipo de industria o sector, tipos de jornada y demás factores laborales.
+
+3. Evaluar si el género sigue siendo determinante en las diferencias salariales una vez controlados los factores laborales.
 
 
 ## Metodología
