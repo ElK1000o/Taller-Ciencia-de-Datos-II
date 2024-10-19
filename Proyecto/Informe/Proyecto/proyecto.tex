@@ -12,9 +12,9 @@
 %    El objetivo del proyecto mencionado al final de la introducción.
 %    Todas las referencias necesarias para fundamentar y validar el tema expuesto.
 
-El presente informe tiene como objetivo analizar la brecha salarial de género en Chile durante el año 2022, enfocándose en comparaciones bajo características laborales similares. Esta investigación se basa en un proyecto previo titulado \textit{Análisis de los Ingresos Principales en Chile: Una Perspectiva Demográfica, Regional y Comparativa con el Sueldo Mínimo}, en el cual se identificó una brecha salarial de género. Ahora, el objetivo es profundizar en esta brecha para comprender mejor sus causas y características. 
+El presente informe aborda la problemática de la brecha salarial de género en Chile durante el año 2022, enfocándose en comparaciones bajo características laborales similares. Esta investigación se basa en un proyecto previo titulado \textit{Análisis de los Ingresos Principales en Chile: Una Perspectiva Demográfica, Regional y Comparativa con el Sueldo Mínimo}, en el cual se identificó una brecha salarial de género. Ahora, se busca ampliar y profundizar en esta brecha para comprender mejor sus causas y características. 
 \begin{center}
-    {\footnotesize \textit{El proyecto anterior está disponible en el siguiente} \href{https://github.com/ElK1000o/Taller-Ciencia-de-Datos-I/tree/main/Proyecto}{repositorio de GitHub}.}
+    {\footnotesize El proyecto anterior está disponible en el siguiente \href{https://github.com/ElK1000o/Taller-Ciencia-de-Datos-I/tree/main/Proyecto}{repositorio de GitHub}.}
 \end{center}
 Abordar esta problemática y promover que no siga sucediendo es crucial para avanzar hacia una sociedad más justa, equitativa y con igualdad de oportunidades. La brecha salarial de género no refleja únicamente las desigualdades del ámbito laboral, sino que genera también repercusiones en casi todos los índices de desigualdad. Según \citet{Castro-Romero2024}, el mercado laboral no solo presenta un imperativo ético, sino que también actúa como un catalizador para el crecimiento económico sostenible, la innovación y la cohesión social. Además, \citet{Cuellar2022}, destacan en su estudio que la brecha salarial de género se sitúa en un 29,6\%, revelando problemas estructurales en el mercado laboral. A pesar de que el mercado formal valora más a las mujeres desde 2001, la brecha salarial ha permanecido significativa por más de 30 años, confirmando la existencia de discriminación y sesgo de selección.
 
@@ -34,13 +34,13 @@ Considerando lo anterior, esta investigación se basará en datos de la encuesta
 
 Tras esta introducción y analizando la problemática planteada surge la siguiente interrogante: ¿En qué medida las diferencias salariales entre hombres y mujeres en Chile pueden explicarse por factores laborales y no por el género en sí?
 
-Para dar respuesta a esta pregunta, se proponen los siguientes objetivos e hipótesis:
+Para dar respuesta a esta pregunta y orientar la investigación, se han establecido los siguientes objetivos e hipótesis.
 
 \subsection{Objetivo General}
 
 % Se debe declarar el objetivo general de todo el proyecto de manera que contenga de manera global a todos los objetivos específicos.
 
-Se propone evaluar la relación entre las diferencias salariales de género y las condiciones laborales en Chile, determinando si existen factores laborales que expliquen la brecha salarial, independientemente de si estas condiciones son similares o diferentes entre géneros.
+El objetivo general de esta investigación consiste en evaluar la relación entre las diferencias salariales de género y las condiciones laborales en Chile, determinando si existen factores laborales que expliquen la brecha salarial, independientemente de si estas condiciones son similares o diferentes entre géneros.
 
 \subsection{Objetivos Específicos}
 
@@ -65,6 +65,14 @@ La hipótesis central de esta investigación es que, en promedio, las mujeres en
 %    Breve introducción a los modelos matemáticos, estadísticos o algorítmicos que se utilizarán.
 %    Definición de variables, datos o modelos a utilizar.
 %    Todas las referencias necesarias para fundamentar y sustentar teóricamente.
+
+Para llevar a cabo esta investigación, se empleará una metodología basada en herramientas de programación y análisis de datos. Se elige Python, un lenguaje ampliamente utilizado en la ciencia de datos, acompañado de las siguientes librerías:
+
+\begin{itemize}
+    \item \textbf{pandas}: Para la manipulación y análisis de datos, permitiendo realizar operaciones como filtrado, agrupamiento y transformación de datos.
+    \item \textbf{numpy}: Para diversos cálculos numéricos y operaciones matemáticas.
+    \item \textbf{matplotlib y seaborn}: Empleadas para la visualización de los datos obtenidos, descubrimiento de insights y facilitación en la interpretación de resultados.
+\end{itemize}
 
 Los datos de las encuestas CASEN y ENE fueron obtenidos desde el sitio web del \href{https://observatorio.ministeriodesarrollosocial.gob.cl/encuesta-casen-2022}{Observatorio Social} y del \href{https://www.ine.gob.cl/estadisticas/sociales/mercado-laboral/ocupacion-y-desocupacion}{INE}, respectivamente. Ambos conjuntos de datos fueron procesados en Python utilizando las librerías mencionadas anteriormente. Para facilitar la comprensión de las encuestas y el significado de sus variables se recurrió a los respectivos libros de código y cuestionarios correspondientes, permitiendo y agilizando la realización de distintas recodificaciones, asignación de valores nulos, creación de nuevas variables y el filtrado de los datos según las necesidades del análisis. 
 
