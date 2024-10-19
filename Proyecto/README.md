@@ -78,11 +78,9 @@ El repositorio se encuentra organizado en las siguientes carpetas y archivos:
 
 - **Python/**: Corresponde a procesamiento (carpeta `Procesamiento`) y análisis (carpeta `Analisis`) utilizando Jupyter Notebook de Python.
 
-## Notas
-
-- Los datos de la encuesta CASEN fueron convertidos a formato .csv ya que se encontraban en extensión .sav (SPSS) al momento de la descarga.
-
-- La última visita a cada enlace entregado fue el 04 de septiembre de 2024.
+> [!NOTE]
+> - Los datos de la encuesta CASEN fueron convertidos a formato .csv ya que se encontraban en extensión .sav (SPSS) al momento de la descarga.
+> - La última visita a cada enlace entregado fue el 04 de septiembre de 2024.
 
 ## Respecto al proyecto
 
