@@ -19,16 +19,32 @@
 \usepackage{hyperref}
 \usepackage{placeins}
 \usepackage{tabularx}
+\usepackage{subcaption}
 \usepackage{apacite}
-\usepackage{subfigure}
+%\usepackage{subfigure}
 \usepackage{booktabs}
 \usepackage{setspace}  
 \usepackage{algorithm2e}
 \usepackage{listings} 
 \usepackage{natbib}
-\lstloadlanguages{python}
-
+% \lstloadlanguages{python}
 %\lstset{language=python,tabsize=2}
+
+\lstdefinestyle{pythonstyle}{
+    language=Python,             % El lenguaje de programación
+    basicstyle=\ttfamily\footnotesize,  % Estilo básico del texto
+    keywordstyle=\color{blue},   % Color para palabras clave
+    commentstyle=\color{green},  % Color para comentarios
+    stringstyle=\color{red},     % Color para cadenas de texto
+    numbers=left,                % Número de línea a la izquierda
+    numberstyle=\tiny\color{gray}, % Estilo de los números de línea
+    stepnumber=1,                % Mostrar todos los números de línea
+    frame=single,                % Marco alrededor del código
+    breaklines=true,             % Permitir líneas largas en varias líneas
+    tabsize=4,                   % Tamaño de las tabulaciones
+    showspaces=false,            % No mostrar espacios
+    showstringspaces=false       % No mostrar espacios en cadenas
+}
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -78,7 +94,7 @@
 \fancyhf{}
 
 
-\title{Desigualdad Salarial de Género en Chile 2022:\\Análisis en Condiciones Laborales Similares} %Cambiar según el título de su tesis
+\title{Desigualdad Salarial de Género en Chile 2022} %Cambiar según el título de su tesis
 \author{Camilo Riquelme} %Cambiar según el nombre del autor
 
 \makeatletter 
