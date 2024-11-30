@@ -1,4 +1,4 @@
-# Desigualdad Salarial de Género en Chile 2022: Análisis en Condiciones Laborales Similares
+# Desigualdad Salarial de Género en Chile 2022
 
 ## Descripción del Proyecto
 
@@ -62,6 +62,8 @@ El análisis será realizado utilizando **Python** y las siguientes librerías:
 
 - `matplotlib` y `seaborn`: Para la visualización de datos.
 
+- `scikit-learn`: Para modelos de clasificación con RandomForestClassifier
+
 ## Organización del repositorio
 
 El repositorio se encuentra organizado en las siguientes carpetas y archivos:
@@ -70,7 +72,7 @@ El repositorio se encuentra organizado en las siguientes carpetas y archivos:
 
 - **ENE/**: Correspondiente libro de código de la encuesta en pdf.
 
-- **Informe/**: Esta carpeta contiene el informe en $LaTeX$ (.tex) y en pdf. 
+- **Informe/**: Esta carpeta contiene el informe en $LaTeX$ (Main.tex) y en pdf (Main.pdf). 
 
 - **input/**: Contiene datos de origen (carpeta `data`) y visualizaciones del [proyecto anterior](https://github.com/ElK1000o/Taller-Ciencia-de-Datos-I/tree/main/Proyecto "Análisis de los Ingresos Principales en Chile: Una Perspectiva Demográfica, Regional y Comparativa con el Sueldo Mínimo") (carpeta `fig`). 
 
